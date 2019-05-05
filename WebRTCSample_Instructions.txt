@@ -1,0 +1,12 @@
+WebRTCSample Instructions
+
+
+1. Using NodeJS, go to the WebRTCSample directory and enter the following:  node server.
+2. Open another NodeJS application, go to the WebRTCSample directory and enter the following:  ng serve --port <PORT #> --open
+3. Once the first 2 instructions are done, you should have a browser open to localhost:<PORT #> and will be prompted to enter a username to test the application.
+4. You'll be prompted to select the video and audio devices that will be used for testing.
+5. Open another browser with the URL from the first and enter in another username to log in.
+6. With either browser, enter in the other username and click on the "Call" button.  The other user will be prompted to either accept or reject the video call.
+7. If the call is accepted, the video chat will begin.  If the call is rejected, the user making a call will get a message saying the call has been rejected.
+8. When done with chatting with the other user, click on "Hang Up" button and the video call will end.
+9. When done with using the WebRTCSample application, close any browsers that are used and terminate both NodeJS applications.
